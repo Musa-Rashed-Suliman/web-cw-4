@@ -13,21 +13,54 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+
+
+
+.flexer{
+    display: flex;
+}
+
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+ background-color: grey; 
+    width: 120px;
+    
+    
+    
+    
+    
+    
+
 }
 
 .header{
+ 
+   background-color: lightcoral;
     /* pxالطول هنا يجب ان يكون 80 */
+   
+   
 }
 
 .main{
+background-color: indigo;
+
 
 }
 
-a{
-    color: darkgray;
+h3{
+    text-align: center;
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    
+    transition: width 2s, height 4s;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+
+h3:hover{
+   transform: scale(1.1);
+}
+p{
+    text-align: center;
 }
 
 /* !بــونص */
